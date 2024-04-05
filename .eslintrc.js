@@ -44,6 +44,7 @@ module.exports = {
         'semi': [
             'error',
             'always'
-        ]
+        ],
+        '@typescript-eslint/ban-types': 'off'
     }
 };
