@@ -1,4 +1,4 @@
-import * as create from './Cidades';
+import * as create from './Create';
 
 export const CidadesController = {
     ...create
