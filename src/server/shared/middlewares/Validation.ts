@@ -14,7 +14,6 @@ type TGetAllSchemas = (getSchema: TGetSchema) => Partial<TAllSchemas>;
 type TValidation = (getAllSchemas: TGetAllSchemas) => RequestHandler;
 
 
-
 export const validation: TValidation = (getAllSchemas) => async (req, res, next) => {
 
     const schemas = getAllSchemas(schema => schema);
